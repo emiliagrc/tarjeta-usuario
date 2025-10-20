@@ -1,0 +1,57 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
+.tarjeta {
+    justify-content: center;
+    background-color: aliceblue;
+    width: 1100px;
+    height: 550px;
+    border-radius: 10px;
+    border: 1px;
+
+}
+
+.arriba {
+    background-color: rgb(28, 209, 209);
+    width: 1100px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.perfil {
+    display: block;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.perfil h2 {
+    font-size: 40px;
+}
+
+img {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.texto {
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.boton {
+    position: absolute;
+    left: 180px;
+    bottom: 50px;
+
+}
